@@ -1,0 +1,199 @@
+:root {
+  --white-text: rgb(255, 255, 255, 1);
+  --blue-text: rgb(33, 150, 243, 1);
+  --black-text: rgb(33, 33, 33, 1);
+  --gray-text: rgb(117, 117, 117, 1);
+  --gray-text-op60: rgb(255, 255, 255, 0.6);
+  --black-backgr: rgb(47, 48, 58, 1);
+  --gray-backgr: rgb(245, 244, 250, 1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(-black-text);
+}
+
+ul {
+  list-style: none;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--black-text);
+}
+
+.logo span {
+  color: var(--blue-text);
+}
+
+.nav a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--black-text);
+}
+
+.nav a:hover,
+.nav a:focus,
+.contact a:hover,
+.contact a:focus {
+  color: var(--blue-text);
+}
+
+.contact a {
+  color: var(--gray-text);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.hero {
+  background-color: var(--black-backgr);
+}
+
+.hero_title {
+  color: var(--white-text);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.hero_btn {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--blue-text);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-text);
+}
+
+.info h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.info p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
+}
+
+.title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
+}
+
+.footer {
+  background-color: var(--black-backgr);
+}
+
+.footer_logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+  text-decoration: none;
+}
+
+.footer_logo span {
+  color: var(--blue-text);
+}
+
+.footer address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer p {
+  color: var(--white-text);
+}
+
+.footer_contact a {
+  text-decoration: none;
+  color: var(--gray-text-op60);
+}
+
+.act_btn {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: var(--gray-backgr);
+  color: var(--black-text);
+}
+
+.act_btn:focus,
+.act_btn:hover {
+  background-color: var(--blue-text);
+  color: var(--white-text);
+}
+
+.cards h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.cards p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--gray-text);
+}
