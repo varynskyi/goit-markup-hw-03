@@ -23,7 +23,8 @@ ul {
 .container {
   width: 1200px;
   padding: 0 15px;
-  margin: 0 200px 0 200px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 .nav,
@@ -160,6 +161,7 @@ ul {
 
 .info-info {
   margin-top: 10px;
+  text-align: left;
 }
 
 .info h3 {
@@ -257,10 +259,12 @@ ul {
 
 .footer {
   background-color: var(--black-backgr);
+  padding-top: 60px;
 }
 
 .footer-contact {
   margin-top: 9px;
+  text-align: left;
 }
 
 .footer-contact li:last-child {
@@ -268,7 +272,6 @@ ul {
 }
 
 .footer-logo {
-  margin-top: 60px;
   margin-bottom: 20px;
   font-style: normal;
   font-weight: bold;
@@ -290,6 +293,7 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
+  text-align: left;
 }
 
 .footer p {
@@ -348,12 +352,16 @@ ul {
   margin-top: 30px;
 }
 
+.cards-it-box {
+  text-align: left;
+}
+
 .cards-it-title {
-  margin: 20px 24px 4px 24px;
+  padding: 20px 24px 4px 24px;
 }
 
 .cards-it-d {
-  margin: 0 24px 20px 24px;
+  padding: 0 24px 20px 24px;
 }
 
 .cards h4 {
