@@ -260,6 +260,7 @@ ul {
 .footer {
   background-color: var(--black-backgr);
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-contact {
@@ -267,12 +268,9 @@ ul {
   text-align: left;
 }
 
-.footer-contact li:last-child {
-  margin-bottom: 60px;
-}
-
 .footer-logo {
   margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -312,9 +310,14 @@ ul {
   display: flex;
 }
 
-.act {
+.cards {
   padding-top: 100px;
+  padding-bottom: 94px;
+}
+
+.act {
   justify-content: center;
+  margin-bottom: 56px;
 }
 
 .act-btn {
@@ -341,8 +344,6 @@ ul {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
-  padding-top: 56px;
-  padding-bottom: 94px;
 }
 
 .cards-i > .cards-it {
@@ -354,14 +355,11 @@ ul {
 
 .cards-it-box {
   text-align: left;
-}
-
-.cards-it-title {
-  padding: 20px 24px 4px 24px;
+  padding: 20px 24px 20px 24px;
 }
 
 .cards-it-d {
-  padding: 0 24px 20px 24px;
+  margin-top: 4px;
 }
 
 .cards h4 {
